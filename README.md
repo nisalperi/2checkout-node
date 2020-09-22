@@ -1,1 +1,1 @@
-#2checkout node wrapper
+# 2Checkout Node.js Wrapper
