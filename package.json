@@ -12,7 +12,7 @@
   "author": "Nisal Periyapperuma <nisalp2006@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/nisalperi/2checkout-node"
   },
   "license": "MIT",
   "engines": {
