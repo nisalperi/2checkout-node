@@ -34,7 +34,7 @@ export default class TwoCheckoutClient {
     }
   }
 
-  private hashValue(rawString: string): string {
+  hashValue(rawString: string): string {
     return generateHash(rawString, this.secretKey)
   }
 
