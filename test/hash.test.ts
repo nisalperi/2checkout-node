@@ -59,4 +59,9 @@ describe('2Checkout orders', () => {
     const confirmHash = client.getIPNHash(ipnObj)
     expect(confirmHash).toEqual(ipnObj.HASH)
   })
+
+  it('2checkout get timestamp', async () => {
+    const dateHash = TwoCheckoutClient.getCurrentTimestamp()
+    expect(dateHash).not.toBeNull()
+  })
 })
