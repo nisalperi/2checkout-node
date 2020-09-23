@@ -59,6 +59,13 @@ export default class TwoCheckoutClient {
     return tmp
   }
 
+  static getCurrentTimestamp(): string {
+    let now = moment()
+      .utc()
+      .format('YYYYMMDDHHmmss')
+    return now
+  }
+
   getLCNHash(obj: Object): string {
     return this.hashValue(TwoCheckoutClient.serializeArray(obj))
   }

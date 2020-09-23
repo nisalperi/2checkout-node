@@ -3,14 +3,9 @@ import TwoCheckoutClient from '../src/2checkout-node'
 import { get2CheckoutCredentials } from '../testUtils'
 
 const testOrder = {
-  Country: 'LK',
   Currency: 'USD',
-  CustomerIP: '91.220.121.21',
-  CustomerReference: 'GFDFE',
   ExternalCustomerReference: 'rooster-company:1',
-  ExternalReference: 'REST_API_AVANGTE',
   Language: 'en',
-  Source: 'testAPI.com',
   BillingDetails: {
     Company: 'Paladin Analytics (PVT) Ltd.',
     Address1: '60/26, 9B Lane, Araliya Uyana',
@@ -28,16 +23,17 @@ const testOrder = {
     {
       Code: 'rooster-hunt-annually',
       Quantity: '1'
+    },
+    {
+      Code: 'hunt-credits',
+      Quantity: '10'
     }
   ],
   PaymentDetails: {
     Currency: 'USD',
-    CustomerIP: '91.220.121.21',
     PaymentMethod: {
       EesToken: get2CheckoutCredentials().tpayToken,
-      RecurringEnabled: true,
-      Vendor3DSReturnURL: 'www.test.com',
-      Vendor3DSCancelURL: 'www.test.com'
+      RecurringEnabled: true
     },
     Type: 'TEST'
   }
