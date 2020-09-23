@@ -1,6 +1,6 @@
 {
   "name": "two-checkout-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "keywords": [],
   "main": "dist/2checkout-node.umd.js",
