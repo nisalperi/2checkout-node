@@ -1,8 +1,6 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from 'axios'
 import { createHmac } from 'crypto'
-import * as momentNs from 'moment'
-
-const moment = momentNs
+import moment from 'moment'
 
 const defaultHost = 'https://api.2checkout.com/rest/6.0'
 const defaultSandboxHost = 'https://api.2checkout.com/rest/6.0'
