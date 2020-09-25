@@ -4,7 +4,7 @@ import { get2CheckoutCredentials } from '../testUtils'
 
 const testOrder = {
   Currency: 'USD',
-  ExternalCustomerReference: 'rooster-company:1',
+  ExternalCustomerReference: '1',
   Language: 'en',
   BillingDetails: {
     Company: 'Paladin Analytics (PVT) Ltd.',
@@ -23,10 +23,6 @@ const testOrder = {
     {
       Code: 'rooster-hunt-annually',
       Quantity: '1'
-    },
-    {
-      Code: 'hunt-credits',
-      Quantity: '10'
     }
   ],
   PaymentDetails: {
