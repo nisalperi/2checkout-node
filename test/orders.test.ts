@@ -21,7 +21,7 @@ const testOrder = {
   },
   Items: [
     {
-      Code: 'rooster-hunt-annually',
+      Code: 'rooster-hire-monthly',
       Quantity: '1'
     }
   ],

@@ -1,6 +1,6 @@
 {
   "name": "two-checkout-node",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "keywords": [],
   "main": "dist/2checkout-node.umd.js",
@@ -117,7 +117,7 @@
     "typescript": "^3.0.3"
   },
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.19.0",
     "moment": "^2.28.0"
   }
 }
